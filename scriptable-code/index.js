@@ -14,7 +14,7 @@
 
     try {
 
-        const base_url = 'https://gitee.com/iaoongin/scripts/raw/master'
+        const base_url = 'https://fastly.jsdelivr.net/gh/iaoongin/scripts@main'
         
        if (strIn(type, ['one', '1'])) {
             eval(await requestString(base_url + "/scriptable-code/compose/_one.js"))

